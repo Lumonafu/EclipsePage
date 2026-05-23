@@ -166,6 +166,7 @@ header{
     0 0 40px rgba(111,83,255,.35);
 
     transition:.25s;
+    font-family: "Minecraft" !important;
 }
 
 .download-btn:hover{
@@ -178,22 +179,6 @@ header{
     0 0 70px rgba(111,83,255,.5);
 }
 
-.linux-link{
-
-    color:#d6d6d6;
-
-    text-decoration:none;
-
-    font-size:.95rem;
-}
-
-.linux-link:hover{
-    color:white;
-}
-.download-btn,
-.linux-link{
-    font-family: "Minecraft" !important;
-}
 /* ======================
    PARALLAX y SOMBRA
 ====================== */

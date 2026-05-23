@@ -1,9 +1,19 @@
 const light = document.getElementById("light");
 const parallax = document.getElementById("parallax");
 const shadow = document.getElementById("shadow");
-
 let mouseX = window.innerWidth / 2;
 let mouseY = window.innerHeight / 2;
+
+const downloadBtn = document.getElementById("downloadBtn");
+
+const platform = (navigator.platform || "").toLowerCase();
+const userAgent = (navigator.userAgent || "").toLowerCase();
+
+let downloadUrl = "";
+let systemName = "";
+
+
+
 
 window.addEventListener("mousemove", (e) => {
 
@@ -25,3 +35,41 @@ window.addEventListener("mousemove", (e) => {
     shadow.style.left = e.clientX + "px";
     shadow.style.top = e.clientY + "px";
 });
+
+
+
+
+
+if (userAgent.includes("linux")) {
+    systemName = "Linux";
+    downloadUrl = "downloads/EclipseLauncher.AppImage";
+}
+else if (platform.includes("win") || userAgent.includes("windows")) {
+    systemName = "Windows";
+    downloadUrl = "downloads/EclipseLauncherSetup.exe";
+}
+else if (platform.includes("mac") || userAgent.includes("mac")) {
+    systemName = "macOS";
+    downloadUrl = "downloads/EclipseLauncher.dmg";
+}
+downloadBtn.textContent = `Descargar para ${systemName}`;
+
+downloadBtn.addEventListener("click", () => {
+    const a = document.createElement("a");
+
+    a.href = downloadUrl;
+
+    a.download = "";
+
+    document.body.appendChild(a);
+
+    a.click();
+
+    document.body.removeChild(a);
+});
+
+console.log("Platform:", navigator.platform);
+console.log("UserAgent:", navigator.userAgent);
+
+console.log(platform.includes("win"));
+console.log(userAgent.includes("linux"));
