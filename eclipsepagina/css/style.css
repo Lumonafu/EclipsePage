@@ -27,7 +27,7 @@ body{
 }
 
 /* ======================
-   LUZ DEL MOUSE
+   LUZ
 ====================== */
 
 #light{
@@ -104,7 +104,7 @@ header{
 }
 
 /* ======================
-   HERO
+   HEROES
 ====================== */
 
 .hero{
@@ -195,7 +195,7 @@ header{
     font-family: "Minecraft" !important;
 }
 /* ======================
-   PARALLAX
+   PARALLAX y SOMBRA
 ====================== */
 
 .parallax-container{

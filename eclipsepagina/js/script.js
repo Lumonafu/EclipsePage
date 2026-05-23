@@ -20,8 +20,7 @@ window.addEventListener("mousemove", (e) => {
     const offsetY = (mouseY - centerY) / 40;
 
     parallax.style.transform =
-        `translate(calc(-50% + ${offsetX}px),
-                   calc(-50% + ${offsetY}px))`;
+        `translate(calc(-50% + ${offsetX}px), calc(-50% + ${offsetY}px))`;
 
     shadow.style.left = e.clientX + "px";
     shadow.style.top = e.clientY + "px";
