@@ -42,11 +42,11 @@ window.addEventListener("mousemove", (e) => {
 
 if (userAgent.includes("linux")) {
     systemName = "Linux";
-    downloadUrl = "downloads/EclipseLauncher.AppImage";
+    downloadUrl = "https://github.com/Lumonafu/EclipsePage/releases/download/v2.2.3/EclipseLauncherSetup.AppImage";
 }
 else if (platform.includes("win") || userAgent.includes("windows")) {
     systemName = "Windows";
-    downloadUrl = "downloads/EclipseLauncherSetup.exe";
+    downloadUrl = "https://github.com/Lumonafu/EclipsePage/releases/download/v2.2.3/EclipseLauncherSetup.exe";
 }
 else if (platform.includes("mac") || userAgent.includes("mac")) {
     systemName = "macOS";
