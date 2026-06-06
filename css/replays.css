@@ -438,3 +438,41 @@ body{
 
     color:rgba(255,255,255,.55);
 }
+
+/* ======================
+   HEADER
+====================== */
+
+header{
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+
+    display:flex;
+
+    align-items:center;
+
+    padding:30px 60px;
+
+    z-index:20;
+}
+
+.logo{
+
+    height:60px;
+
+    user-select:none;
+
+    -webkit-user-drag:none;
+
+    transition:.2s;
+}
+
+.logo:hover{
+
+    transform:scale(1.03);
+}
