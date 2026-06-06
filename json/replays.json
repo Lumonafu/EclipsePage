@@ -1,0 +1,31 @@
+{
+    "Temporada 1": {
+        "04-06-26": {
+            "Equipo Rojo": {
+            "Lumonafu": [
+                {
+                    "name": "Partida 1.mcpr",
+                    "url": "https://..."
+                },
+                {
+                    "name": "Partida 2.mcpr",
+                    "url": "https://..."
+                }
+            ],
+            "Ferss": [
+            {
+                "name": "Partida 1.mcpr",
+                "url": "https://..."
+            }
+            ]
+            },
+            "Equipo Azul": {}
+        },
+
+        "05-06-26": {
+            "Equipo Rojo": {}
+            }
+        },
+    "Temporada 2": {
+    }
+}

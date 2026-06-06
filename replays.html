@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Eclipse Replays</title>
+
+<link rel="stylesheet" href="css/replays.css">
+
+</head>
+<body>
+
+<div class="parallax-container">
+
+    <img
+        src="img/heroes.png"
+        class="replays-bg"
+        id="replaysParallax"
+        alt="">
+
+</div>
+
+<div class="replays-overlay"></div>
+
+<div id="shadow"></div>
+<div id="light"></div>
+
+<a href="index.html" class="back-btn">
+    Volver
+</a>
+
+<div class="replays-page">
+
+    <img
+    src="img/replay-logo.png"
+    alt="Eclipse Replays"
+    class="replays-logo">
+
+    <p class="replays-subtitle">
+        Explora partidas por temporada y fecha
+    </p>
+
+    <input
+        type="text"
+        id="search"
+        class="search"
+        placeholder="Buscar temporada, fecha, equipo, jugador o replay..."
+    >
+
+    <div id="replaysContainer"></div>
+
+</div>
+
+<script src="js/replays-data.js"></script>
+<script src="js/replays.js"></script>
+
+</body>
+</html>
