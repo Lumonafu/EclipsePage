@@ -230,7 +230,7 @@ body{
 
     border:1px solid rgba(255,255,255,.08);
 
-    border-radius:14px;
+    border-radius:10px;
 
     margin-bottom:14px;
 
@@ -268,13 +268,14 @@ body{
 }
 
 .folder-content{
-
-    padding:0 16px 16px 16px;
+    
+    padding:16px 16px 16px 16px;
 }
 
 .player-folder summary{
 
     font-size:1rem;
+    border: #00000000;
 }
 
 .folder-icon,
@@ -286,15 +287,16 @@ body{
 
     pointer-events:none;
 }
+
+
 /* ======================
    FILES
 ====================== */
 
 .replay-file{
 
-    display:flex;
-    align-items:center;
-
+    display:ruby;
+    margin: 10px 5px;
     gap:12px;
 
     margin-top:10px;
@@ -367,6 +369,8 @@ body{
 
     font-family:"Minecraft";
 }
+
+
 
 /* ======================
    ICONS
@@ -475,4 +479,16 @@ header{
 .logo:hover{
 
     transform:scale(1.03);
+}
+
+.date{
+
+    margin-top:16px;
+}
+
+.player{
+    background:#00000000;
+    border: 0px;
+    border-radius: 0px;
+    backdrop-filter: none;
 }

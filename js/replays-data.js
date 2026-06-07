@@ -11,18 +11,18 @@ const REPLAYS = {
 
                 "Lumonafu": [
                     {
-                        name: "Partida 1.mcpr",
-                        url: "https://drive.google.com/file/d/1hfR5FivOwoJvyvy5T0IW763DHCqY-epr/view?usp=drive_link"
+                        name: "Replay 1.mcpr",
+                        url: "https://drive.google.com/uc?export=download&id=1hfR5FivOwoJvyvy5T0IW763DHCqY-epr"
                     },
                     {
-                        name: "Partida 2.mcpr",
-                        url: "#"
+                        name: "Replay 2.mcpr",
+                        url: "https://drive.google.com/uc?export=download&id=1hfR5FivOwoJvyvy5T0IW763DHCqY-epr"
                     }
                 ],
 
                 "Ferss": [
                     {
-                        name: "Partida 1.mcpr",
+                        name: "Replay 1.mcpr",
                         url: "#"
                     }
                 ]
