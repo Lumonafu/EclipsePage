@@ -46,7 +46,7 @@ if (userAgent.includes("linux")) {
 }
 else if (platform.includes("win") || userAgent.includes("windows")) {
     systemName = "Windows";
-    downloadUrl = "https://github.com/Lumonafu/eclipseupdates/releases/download/v2.2.4/Eclipse.Launcher-setup-2.2.4.exe";
+    downloadUrl = "https://github.com/Lumonafu/eclipseupdates/releases/download/v2.2.5/Eclipse.Launcher-setup-2.2.5.exe";
 }
 else if (platform.includes("mac") || userAgent.includes("mac")) {
     systemName = "macOS";
