@@ -42,7 +42,7 @@ window.addEventListener("mousemove", (e) => {
 
 if (userAgent.includes("linux")) {
     systemName = "Linux";
-    downloadUrl = "https://github.com/Lumonafu/eclipseupdates/releases/download/v2.2.4/Eclipse.Launcher-setup-2.2.4.AppImage";
+    downloadUrl = "https://github.com/Lumonafu/eclipseupdates/releases/download/v2.2.5/Eclipse.Launcher-setup-2.2.5.AppImage";
 }
 else if (platform.includes("win") || userAgent.includes("windows")) {
     systemName = "Windows";
